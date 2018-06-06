@@ -635,7 +635,7 @@ window.confirm = function(message, title, yes_label, callback) {
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script> 
 $(document).ready(function(){
-$("#select" ).on('change', function() { 
+$("#select2" ).on('change', function() { 
   speciesvar = $(this).val();
   //var fileName = "us-states"+year+".js";
  // var script = document.createElement('script');
@@ -647,7 +647,7 @@ $("#select" ).on('change', function() {
 </script>
 </head>
 <body>
-<form autocomplete="off" action="/action_page.php">
+<form id="select2" autocomplete="off" >
   <div class="autocomplete" style="width:300px;">
     <input id="myInput" type="text" name="myCountry" placeholder="Country">
   </div>
