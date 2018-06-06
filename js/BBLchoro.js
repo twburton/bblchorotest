@@ -180,6 +180,7 @@ function statecount2(){
 
 
 var speciesvar="all"
+
 var yearvar="1900"
 var yearvar2="2018"
 var stateid = "all";
@@ -190,6 +191,11 @@ var AK=0,AL=0,AR=0,AZ=0,CA=0,CO=0,CT=0,DC=0,DE=0,FL=0,GA=0,GU=0,HI=0,IA=0,ID=0,I
 
 function countstates(data) {
 	var dict = [];
+	
+	var speciesvar = $('#myInput').val();
+	if(speciesvar==""){
+		speciesvar="all"
+	}
   var allRows = data.split(/\r?\n|\r/);
  
  
