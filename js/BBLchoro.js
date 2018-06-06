@@ -174,8 +174,12 @@ function suffix(i) {
 		return i + "th";
 	}
 hideall();
-function statecount2(){
-  
+function resetbutton(){
+	hideselect();
+  speciesvar = "all";
+  yearvar2="2018"
+  yearvar="1900"
+  ifall = true;
 }
 
 
